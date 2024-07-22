@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg1 from "../assets/img/project1.jpg";
+import projImg2 from "../assets/img/project2.jpg";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import { Card } from "./Card";
@@ -66,17 +66,18 @@ export const Projects = () => {
   const projects = [
     {
       title: "Hardware Project",
-      description: "lor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.",
+      description: " This system is designed for both professional cyclists and daily exercisers, enabling them to track and analyze crucial performance metrics during their cycling journeys.",
       imgUrl: projImg1,
     },
     {
-      title: "Rootcode Project",
-      description: "lor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.",
+      title: "Inventory Management System",
+      description: "Increasing the productivity of the business by implementing a comprehensive  software solution that effectively manages the limited resources of the company, such as requests,reservations, maintenance, and providing a user-friendly interface.",
+
       imgUrl: projImg2,
     },
     {
       title: "Portfolio Project",
-      description: "lor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.",
+      description: "",
       imgUrl: projImg3,
     }
   ];
